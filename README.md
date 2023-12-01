@@ -27,4 +27,4 @@ import {FlexibleInput} from 'flexible-input';
 
 ## Preview
 
-See [demo](https://streamich.github.io/flexible-input).
+See [demo](https://streamich.github.io/flexible-input/?path=/story/flexibleinput--interactive).
