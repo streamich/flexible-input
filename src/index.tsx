@@ -172,14 +172,14 @@ export const FlexibleInput: React.FC<FlexibleInputProps> = ({
   return (
     <>
       {!!typebefore && <span style={{color: theme.g(0.7), verticalAlign: 'top'}}>{typebefore}</span>}
-      <div className={blockClass}>
+      <span className={blockClass}>
         {input}
-        <div ref={sizerRef} className={sizerClass}>
+        <span ref={sizerRef} className={sizerClass}>
           <span style={{visibility: 'hidden'}}>{value}</span>
           {'\u200b'}
           {!!typeahead && <span style={{color: theme.g(0.7)}}>{typeahead}</span>}
-        </div>
-      </div>
+        </span>
+      </span>
     </>
   );
 };
