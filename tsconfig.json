@@ -24,7 +24,7 @@
     "downlevelIteration": true,
     "isolatedModules": false,
     "rootDir": "./src",
-    "outDir": "./dist"
+    "outDir": "./lib"
   },
   "include": ["src"],
   "exclude": [
