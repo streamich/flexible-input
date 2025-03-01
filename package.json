@@ -121,7 +121,7 @@
       }
     }
   },
-  "packageManager": "yarn@4.6.0",
+  "packageManager": "yarn@4.7.0",
   "dependencies": {
     "nano-theme": "^1.3.0"
   }
